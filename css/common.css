@@ -1,0 +1,66 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+.warp{ width:1004px; margin:0 auto; font:"宋体"; font-size:12px; line-height:180%; overflow: hidden;}
+.header{ height:298px; line-height:46px;}
+.top{ height:46px; clear:both;}
+.banner{ height:211px; clear:both;}
+.left{ float:left;}
+.right{ float:right;}
+.c{ font-family:Arial, Helvetica, sans-serif;}
+.cl{ clear:both;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#0000FF;}
+li{ list-style:none;}
+h3{ font-size:14px; line-height:30px; text-indent:14px;}
+.page{ height:40px; line-height:40px; text-align:center;}
+.nav{ height:41px; background:url(../images/nav_bj.gif) repeat-x;}
+.nav ul{ margin-left:300px; float:left}
+.nav ul li{ list-style:none; float:left; padding:0 10px;}
+.foot{ height:100px; clear:both;background:url(../images/foot_bj.gif) repeat-x; color:#fff; text-align:center; margin-top:10px;}
+
+.middle{ position:relative; clear:both; width:1000px;}
+.side{ float:left; width:240px; background:url(../images/side_bj.gif) repeat-y; z-index:100; top:-40px; position:relative;}
+.side h3{ background-image:url(../images/title_bj.gif); background-repeat:no-repeat; line-height:33px; text-indent:12px;}
+.side p{ padding:10px;}
+.side .s-2 ul{ padding:5px;}
+.side .s-2 li{ background:url(../images/class2.gif) no-repeat center left; text-indent:20px;}
+.main{ float:right; width:760px; position:relative;}
+.search{ height:40px;float:right;}
+.search form{ height:20px; padding:10px;}
+.main h3{ border-bottom:2px solid #0099FF;}
+.main .news{ width:470px; padding:5px;}
+.main .index_pic{ width:270px; height:240px; overflow:hidden; margin-top:35px;}
+.main .news .list li{ line-height:25px; border-bottom:1px dotted #ccc; text-indent:24px; background:url(../images/list.gif) no-repeat center left;}
+.product{ clear:both;}
+.product .pic{ height:145px; border:3px solid #ccc; clear:both; overflow:hidden; padding:5px; margin:10px;}
+.product  li{ text-align:center; float:left; margin:0 5px;}
+
+.pro{clear:both;}
+.pro .list li{ float:left; padding:5px; text-align:center; background-image:url(../images/pic_bj.gif); background-repeat:no-repeat; margin-left:10px;}
+.pro .list li img{ display:block; margin-bottom:5px;}
+
+
+.content{border:1px solid #ccc;}
+.content h4{ font-size:14px; text-align:center;line-height:38px;}
+.content .date{ line-height:25px; text-align:center; color:#666666;}
+.content{ padding:12px;}
+.d1 {
+ margin:10px auto;
+ width:600px;
+ border:#103E63 1px solid;
+ height:120px;
+ overflow:hidden;
+ white-space:nowrap;
+}
+.d2 {
+ margin:0px auto;
+}
+.div2 {
+ width:auto;
+ height:auto;
+ font-size:12px;
+ float:left;
+ overflow:hidden;
+}
+.div2 img{border:0;}
+.cl{clear:both;}
