@@ -1,4 +1,12 @@
-<h3>产品分类</h3>
+ <div class="s-1">
+    <h3>公司简介</h3>
+    <marquee direction="up" scrolldelay="5" scrollamount="2" height="150">
+    <p>
+    北京天水同天钢铁贸易有限公司是一家科学管理的专业钢材贸易企业，我公司主营螺纹钢、线材、环氧树脂涂层钢筋（防腐钢筋）、焊管、无缝管、镀锌管、开平板、中厚板、角钢、槽钢、方管等。</p>
+    </marquee>
+  </div>
+  <div class="s-2">
+  <h3>产品分类</h3>
     <ul>
       <li><a href="/index.php/product/index/catid/9">环氧树脂涂层钢材</a></li>
       <li><a href="/index.php/product/index/catid/10">HPB300钢筋</a></li>
@@ -16,3 +24,5 @@
       手机：张恒伟：13911777127<br>尚孟林：13521021686<br />
       邮箱： bjtstt@163.com</p>
     <div class="cl"></div>
+  </div>
+  
