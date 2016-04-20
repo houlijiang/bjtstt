@@ -12,11 +12,11 @@
   <ul class="news list">
   <?php foreach($list as $n):?>
   <li>
-  <span class="right">[<?php echo date('Y-m-d');?>]</span><a href="/index.php/list/show/id/32">环氧树脂涂层钢筋</a>
+  <span class="right">[<?php echo date('Y-m-d',$n['utime']);?>]</span><a href="/index.php/list/show/id/<?php echo $n['id']?>"><?php echo $n['title']?></a>
   </li>
   <?php endforeach;?>
   </ul>
-  <div class="page"> 共5 条记录/1页   
+  <div class="page"> 共5 条记录/1页   <?php echo $page?>
   </div>
   </div>
   <div class="index_pic right"></div>

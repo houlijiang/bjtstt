@@ -8,7 +8,13 @@ class News extends CI_Controller{
 	
     public function index($page_index = 0)
     {
-        $data['list'] = $this->Content_model->get_list($page_index);
+        $data = $this->Content_model->get_list($page_index);
+        $config['base_url'] = site_url('/news/index/');
+        $config['total_rows'] = $data['total'];
+        $config['per_page'] = 10;
+        $config['uri_segment'] = 3;
+        $this->pagination->initialize($config);
+        $data['page'] = $this->pagination->create_links();
         $this->load->view('news_home',$data);
     }
     

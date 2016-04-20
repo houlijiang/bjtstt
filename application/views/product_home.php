@@ -19,7 +19,7 @@
 	</ul>
     </div> 
      <div class="cl"></div>
-    <div class="page">共<?php echo $total?> 条记录/2页  <?php echo $page?></div>
+    <div class="page">共<?php echo $total?> 条记录  <?php echo $page?></div>
 </div>
  <div class="cl"></div>
  </div>
