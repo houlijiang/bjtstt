@@ -1,5 +1,5 @@
 <?php
-echo time();
+date_default_timezone_set("PRC");
 /**
  * CodeIgniter
  *

@@ -2,14 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>公司简介</title>
+<title><?php echo !empty($title)?$title:'公司简介'?></title>
 <link href="/css/common.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/Public/Js/Base.js"></script>
-<script type="text/javascript" src="/Public/Js/prototype.js"></script>
-<script type="text/javascript" src="/Public/Js/mootools.js"></script>
-<script type="text/javascript" src="/Public/Js/Ajax/ThinkAjax.js"></script>
-<script type="text/javascript" src="/Public/Js/UbbEditor.js"></script>
-<script type="text/javascript" src="/Public/Js/Form/CheckForm.js"></script>
 </head>
 <body>
 <div class="warp">	
