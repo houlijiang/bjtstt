@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'bjtstt.gotoftp1.com',
+	'hostname' => 'localhost',
 	'username' => 'bjtstt',
 	'password' => 'jxrmpfgb',
 	'database' => 'bjtstt',

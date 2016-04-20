@@ -5,8 +5,8 @@ class Page_model extends CI_Model{
 		parent::__construct();
 	}
 	
-	public function get_info($field = '')
+	public function get_info($id = 0)
 	{
-		return $this->db->query("select `content` from ts_config where name = '{$field}'")->row()->$field;
+		return $this->db->query("select * from ts_page where id = $id")->row_array();
 	}
 }

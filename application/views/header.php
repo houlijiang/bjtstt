@@ -14,11 +14,11 @@
       <div class="nav">
         <ul>
           <li><a href="/index.php">首页</a></li>
-          <li><a href="/index.php/page/index/id/1">企业简介</a></li>
+          <li><a href="/index.php/page/index/1">企业简介</a></li>
           <li><a href="/index.php/product">产品展示</a></li>
           <li><a href="/index.php/list">信息资讯</a></li>
           <li><a href="/index.php/book">信息反馈</a></li>
-          <li><a href="/index.php/page/index/id/2">联系我们</a></li>
+          <li><a href="/index.php/page/index/2">联系我们</a></li>
         </ul>
       </div>
   </div>
