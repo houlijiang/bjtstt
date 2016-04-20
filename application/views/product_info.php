@@ -8,8 +8,10 @@
   <!--公共左 end-->
   <div class="main">
   <div class="content">
-  <h4>工字钢</h4>
-  <p align="center"><img src="http://www.bjtstt.com/images/uploads/xc_Hg01.jpg" /></p>  <div class="cl"></div>  </div> 
+  <h4><?php echo $info['name']?></h4>
+  <?php echo $info['content']?>
+  <div class="cl"></div>  
+  </div> 
   </div>
   </div>
   <div class="cl"></div>
